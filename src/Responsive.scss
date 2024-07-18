@@ -1,0 +1,168 @@
+@media only screen and (max-width: 1250px) {
+    .header {
+        .textpart {
+            .text {
+                max-width: 600px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header {
+        .textpart {
+
+            .inputsection {
+
+                .input {
+                    width: 100%;
+                }
+
+                #inpbtn {
+                    display: none;
+
+                }
+            }
+
+            .text {
+                max-width: fit-content !important;
+            }
+
+        }
+    }
+
+    .logosection {
+        .main-content {
+            .content {
+                h4 {
+                    font-size: 40px;
+                    margin-top: 30px;
+                }
+
+                // p{
+                //     width: 30%;
+                // }
+            }
+
+            .clint {
+                h4 {
+                    margin: 0px 8px;
+                    padding-top: 0px !important;
+                }
+
+            }
+
+            .image {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footersection .footerclr .foteritems ul{
+        padding-left: 0px;
+        li{
+            padding: 20px 5px;
+        }
+    }
+    .header .textpart .text h4{
+        font-size: 65px !important;
+    }
+    .contact {
+        .contain {
+            .ques {
+                display: none;
+            }
+        }
+    }
+
+    .subscriber {
+        .growth {
+            padding: 50px;
+        }
+
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 30px !important;
+    }
+
+    .subscriber {
+        .money {
+            .growheads {
+                #growi {
+                    width: 120px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+    .header .textpart .inputsection .simpletext ul{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .subscriber .growth .growpra p{
+        padding: 20px 0px;
+    }
+    .header {
+        .Nav {
+            .img {
+                padding-left: 10px;
+                img{
+                    width: 20px;
+                }
+                h4 {
+                    font-size: 20px !important;
+                }
+            }
+            .navbtn
+            {
+                padding-right: 10px;
+                button{
+                    font-size: 12px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    padding: 7px;
+                }
+            }
+        }
+
+        .textpart {
+            .text {
+                h4 {
+                    text-align: center;
+                    justify-content: center;
+                }
+            }
+
+            .inputsection {
+
+                .input {
+                    img {
+                        width: 10%;
+                    }
+
+                    width: 100%;
+
+                    .inp {
+                        font-size: 14px;
+
+                    }
+                }
+
+                #inpbtn {
+                    display: none;
+
+                }
+            }
+
+            #bannerimg {
+                display: none;
+            }
+        }
+    }
+}
